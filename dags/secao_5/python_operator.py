@@ -3,7 +3,6 @@ from datetime import datetime
 from airflow.operators.python_operator import PythonOperator
 import pandas as pd
 import statistics as sts
-import os
 
 
 dag = DAG("pythonoperator", 
